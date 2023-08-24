@@ -1,2 +1,50 @@
 
 /* Your CSS Code here. */
+*{
+    padding: 0;
+    margin: 0;
+}
+.holder{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 1px;
+    flex-wrap: wrap;
+}
+
+.item-1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    order:1;
+}
+.item-2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    order:2;
+}
+.item-3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.item-4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.item-5{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.item-6{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.item-7{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
